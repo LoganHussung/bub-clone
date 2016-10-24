@@ -1,0 +1,221 @@
+* {
+font-family: sans-serif;
+box-sizing: border-box;
+}
+.bubb {
+  height: 100%;
+  width: 100%;
+
+}
+.headercontainer {
+  padding: 0 47px;
+
+}
+.header {
+  padding: 42px 0;
+  border-bottom: 1px solid #EEE;
+  width: 100%;
+}
+
+.bubblogo{
+  display: inline-block;
+  float: left;
+}
+
+.nav {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  width: 50%;
+}
+.nav ul {
+  margin: 0 0 0 150px;
+  padding: 0;
+}
+
+.nav li{
+  list-style: none;
+  display: inline-block;
+  margin: 0;
+  padding: 26px 9px 20px 9px;
+  color: #4d4d4d;
+  border-bottom: 4px solid #EEE;
+  float: left;
+}
+
+.contact {
+  display: inline-block;
+  float: right;
+  margin-top: 10px;
+}
+.social {
+  float: left;
+  padding-top: 3px;
+}
+.social img{
+  display: inline-block;
+  padding-top: 10px;
+}
+.email {
+  float: left;
+  text-align: right;
+  padding-left: 20px;
+  padding-top: 12px;
+  color: grey;
+}
+.email p {
+  font-weight: bold;
+  margin: 0;
+  padding: 0;
+  font-size: 18px;
+  color: black;
+}
+.welikecode {
+  margin-top: 58px;
+  padding: 0 35px;
+}
+.products{
+  margin-top: 35px;
+  padding: 0 47px;
+  overflow: hidden;
+  position: relative;
+
+}
+.singleproduct {
+  width: 25%;
+  padding: 40px;
+  border-top: 5px solid #8995A1;
+  float: left;
+  position: relative;
+  height: 300px;
+  border-right:1px solid #E5E5E5;
+  border-bottom: 1px solid #E5E5E5;
+  border-left: 1px solid #E5E5E5;
+}
+.singleproduct:nth-child(2n+2) {
+  width: 25%;
+  padding: 40px;
+  border-top: 5px solid #3DAFC7;
+  float: left;
+  position: relative;
+  height: 300px;
+}
+h2 {
+  font-size: 30px;
+  width: 85%;
+  margin-right: 0;
+  margin-top: 0;
+  padding: 0;
+  color: #4D4D4D;
+}
+.description {
+  font-size: 15px;
+  line-height: 18px;
+  width: 90%;
+  color: grey;
+}
+
+.knowmore {
+  height: 45px;
+  width: 153px;
+  border: 2px solid #E5E5E5;
+  text-align: center;
+  margin-top: 30px;
+  color: grey;
+  font-weight: bold;
+}
+.knowmore p {
+  margin: 0;
+  padding: 10px;
+}
+
+.projects {
+  width: 100%;
+  padding: 0 47px;
+}
+.projectheader {
+  display: block;
+  text-align: center;
+  margin-top: 35px;
+}
+.projectheader h1 {
+  font-size: 55px;
+  font-weight: 400;
+  letter-spacing: -3px;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+.projectheader p {
+  color: #999999;
+}
+.siteimages {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+.site {
+  display: inline-block;
+  width: 50%;
+  float: left;
+}
+.site img{
+  display: inline-block;
+  width: 100%;
+  float: left;
+  height: 300px;
+}
+
+.moreprojects{
+  text-align: center;
+}
+ .moreprojects p {
+   padding: 20px 150px;
+   margin: 20px;
+   display: inline-block;
+   color: white;
+   background-color: #3DAFC7;
+ }
+ .moreprojects p:hover {
+   padding: 20px 150px;
+   margin: 10px;
+   display: inline-block;
+   color: white;
+   background-color: #3498B1;
+ }
+ .studio {
+   margin: 0 47px;
+   display: block;
+ }
+
+.studioleft  {
+  display: inline-block;
+  float: left;
+  width: 50%;
+}
+
+.studioleft p {
+  max-width: 435px;
+  color: #848484;
+  padding: 55px 0 55px 50px;
+}
+
+.studioright  {
+  display: inline-block;
+  float: right;
+  width: 50%;
+  padding-top: 20px;
+}
+.studioright img {
+  width: 100%;
+}
+
+.developers {
+  margin: 0 47px;
+}
+
+.developers img{
+  display: block;
+  width: 100%;
+  padding: 20px 0;
+}
